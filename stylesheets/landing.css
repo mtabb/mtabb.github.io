@@ -1,0 +1,102 @@
+/**********************************
+GENERAL
+***********************************/
+
+
+/**********************************
+NAVIGATION 
+***********************************/
+
+
+
+/**********************************
+HEADER
+***********************************/
+
+.portrait{
+    max-width:auto;
+    max-height:250px;
+}
+
+.jumbotron{
+    text-align:center;
+    margin-bottom:10px;
+    height:500px;
+    padding-top:50px;
+}
+
+.portrait_name{
+    width:320px;
+    margin:0 auto;
+    padding:20px;
+    border-radius:20px;
+}
+
+/**********************************
+MAIN CONTENT
+***********************************/
+.thumbnail_space{
+    max-width:90%;
+    margin:0 auto;
+}
+
+.thumbnail_image{
+  max-height:200px;
+  max-width:242px;
+}
+
+article{
+    width:90%;
+    margin:0 auto;
+    padding:10px;
+    border-radius:10px;
+    margin-bottom:10px;
+}
+
+/**********************************
+FOOTER - Layout and Sizing
+***********************************/
+footer{
+    height:100px;
+    text-align:center;
+    padding:20px;
+}
+
+/**********************************
+PAGE: _______
+***********************************/
+
+
+
+/**********************************
+FONTS
+***********************************/
+.portrait_name{
+    font-family: 'Audiowide', cursive;
+}
+
+/**********************************
+COLORS and BACKGROUNDS
+Color 1: #eee
+Color 1:
+Color 1:
+Color 1:
+Color 1:
+***********************************/
+
+article{
+    background:#eee;
+}
+
+footer{
+    background:#eee;
+}
+
+.jumbotron{
+  background: url('https://picjumbo.imgix.net/HNCK8910.jpg?q=40&w=1650&sharp=30') no-repeat center;
+  background-size: cover;
+}
+
+.portrait_name{
+    background: rgba(230, 230, 230, 0.7);
+}
