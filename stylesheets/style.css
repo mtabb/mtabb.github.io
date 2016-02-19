@@ -18,12 +18,47 @@ NAVIGATION
 /**********************************
 HEADER
 ***********************************/
+.portrait{
+    max-width:auto;
+    max-height:250px;
+}
 
+.jumbotron{
+    text-align:center;
+    margin-bottom:10px;
+    height:500px;
+    padding-top:0px;
+    background-color:black;
+}
+
+.portrait_name{
+    width:320px;
+    margin:0 auto;
+    padding:20px;
+    border-radius:20px;
+}
 
 /**********************************
 MAIN CONTENT
 ***********************************/
+.thumbnail_space{
+    max-width:100%;
+    margin:0 auto;
+    background-color:gray;
+}
 
+.thumbnail_image{
+  max-height:200px;
+  max-width:242px;
+}
+
+article{
+    width:100%;
+    margin:0 auto;
+    padding:20px;
+    border-radius:10px;
+    margin-bottom:10px;
+}
 
 /**********************************
 FOOTER - Layout and Sizing
@@ -33,13 +68,20 @@ FOOTER - Layout and Sizing
 /**********************************
 PAGE: _______
 ***********************************/
-
+body{
+background:#eee;
+color:red;
+background-color:black;
 
 
 /**********************************
 FONTS
 ***********************************/
-
+footer{
+    height:100px;
+    text-align:center;
+    padding:20px;
+}
 
 
 /**********************************
@@ -50,3 +92,7 @@ Color 1:
 Color 1:
 Color 1:
 ***********************************/
+body{
+background:#eee;
+background-color:black;
+}

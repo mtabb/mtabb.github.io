@@ -22,7 +22,8 @@ HEADER
     text-align:center;
     margin-bottom:10px;
     height:500px;
-    padding-top:50px;
+    padding-top:0px;
+    background-color:black;
 }
 
 .portrait_name{
@@ -36,8 +37,9 @@ HEADER
 MAIN CONTENT
 ***********************************/
 .thumbnail_space{
-    max-width:90%;
+    max-width:100%;
     margin:0 auto;
+    background-color:gray;
 }
 
 .thumbnail_image{
@@ -46,9 +48,9 @@ MAIN CONTENT
 }
 
 article{
-    width:90%;
+    width:100%;
     margin:0 auto;
-    padding:10px;
+    padding:20px;
     border-radius:10px;
     margin-bottom:10px;
 }
@@ -77,7 +79,7 @@ FONTS
 
 /**********************************
 COLORS and BACKGROUNDS
-Color 1: #eee
+Color 1:
 Color 1:
 Color 1:
 Color 1:
@@ -86,15 +88,19 @@ Color 1:
 
 article{
     background:#eee;
+    color:black;
+    background-color:red;
 }
 
 footer{
     background:#eee;
+    background-color:black;
 }
 
 .jumbotron{
   background: url('https://picjumbo.imgix.net/HNCK8910.jpg?q=40&w=1650&sharp=30') no-repeat center;
   background-size: cover;
+  background-color:black;
 }
 
 .portrait_name{
